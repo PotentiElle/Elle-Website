@@ -1,20 +1,789 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PotentiElle</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link href="css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="index.css" rel="stylesheet">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>PotentiElle | Home</title>
+    <meta name="description" content="Welcome to PotentiElle where education matters">
+    <meta name="author" content="PotentiElle">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon_n.ico" type="image/x-icon">
+    <link rel="icon" href="images/n_favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <!--kit font-awesome-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+        integrity="sha256-0rguYS0qgS6L4qVzANq4kjxPLtvnp5nn2nB5G1lWRv4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/82318df663.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"
+        integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1>Hello World!</h1>
+
+<body id="top">
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+        <div class="header-logo">
+            <a class="site-logo" href="#"><img src="images/Picture1.png" alt="Homepage"></a>
+        </div>
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="About">About</a></li>
+                <li><a class="smoothscroll" href="#portfolio" title="Portfolio">Portfolio</a></li>
+                <li><a class="smoothscroll" href="#projects" title="Projects">Projects</a></li>
+                <li><a class="smoothscroll" href="#contact" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+    </header> <!-- end s-header --> <!--MUAZ'S COMMENTTT-->
+    <!-- home
+   ================================================== -->
+    <section id="home" class="s-home page-hero target-section" data-parallax="scroll"
+        data-image-src="images/bg_header1.jpg" data-position-y=center>
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+        <div class="home-content">
+            <div class="row home-content__main">
+                <p>Welcome</p>
+                 <h1>
+                    We are PotentiElle.
+                    Empowering education.
+                </h1>
+                <div class="home-content__buttons">
+                    <a href="#portfolio" class="smoothscroll btn btn--stroke">
+                        Committee
+                    </a>
+                    <a href="#projects" class="smoothscroll btn btn--stroke">
+                        Projects
+                    </a>
+                </div>
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+            </div>
+        </div> <!-- end home-content -->
+        <ul class="home-social">
+            <li>
+                <a href="https://www.facebook.com/irfanezani.shuhaimi" target="_blank"><i class="fab fa-facebook"
+                        aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/irfanezani_" target="_blank"><i class="fab fa-twitter"
+                        aria-hidden="true"></i><span>Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/irfan.ezani/?hl=en" target="_blank"><i class="im im-instagram"
+                    aria-hidden="true"></i><span>Instagram</span></a>
+                </li>
+            <li>
+                <a href="https://github.com/IrfanEzani" target="_blank"><i class="fab fa-github"
+                aria-hidden="true"></i><span>Github</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/irfanezani/" target="_blank"><i class="fab fa-linkedin"
+                        aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+        </ul>
+        <!-- end home-social -->
+    </section> <!-- end s-home -->
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h2>About</h2>
+                <p class="lead">
+                    Founded by a handful of A-level students, we are an initiative passionate about
+                    bringing awareness and equity towards education amongst girls and women around the globe.
+                </p>
+            </div>
+        </div>
+        <div class="row about-content">
+            <div class="col-six tab-full left">
+                <h3 id="welcome">W E L C O M E</h3>
+                <p id="content_tgh">Here are some useful informations that can assist your curious minds.
+                </p>
+                <p class="information_tgh">What is this site?</p>
+                An online portfolio of me.
+                <p class="information_tgh">Who is this site for?</p>
+                Everyone are welcomed.
+                <p class="information_tgh">What am I learning currently?</p>
+                Front-end development, such as building this website.
+                <p class="information_tgh">What else do you enjoy to do?</p>
+                Running, hearing to musics, and reading.
+                <p class="information_tgh">What are your future plans?</p>
+                Pursuing a career in technology, probably a software engineer.
+                </p>
+            </div>
+            <div class="col-six tab-full right">
+                <p class="h03">Skillset:</p>
+                <ul class="skill-bars">
+                    <li>
+                        <div class="progress percent90"><span>90%</span></div>
+                        <strong>English Proficiency</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent60"><span>60%</span></div>
+                        <strong>Arabic Proficiency</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent95"><span>95%</span></div>
+                        <strong>MS Word and Powerpoint</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent75"><span>75%</span></div>
+                        <strong>HTML5 and CSS3</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent55"><span>55%</span></div>
+                        <strong>JavaScript</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent60"><span>60%</span></div>
+                        <strong>Adobe Premiere Pro</strong>
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- end about-content -->
+        <div class="row about-content about-content--buttons">
+            <div class="col-six tab-full left">
+                <a href="https://drive.google.com/drive/folders/12A3TnukYD9Vxwn5R541qbKmzHAmWJp1l?usp=sharing"
+                    target="_blank" class="btn btn--primary full-width">Take a look at my CV</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a href="http://geniusinsan.usim.edu.my/en/" target="_blank" class="btn full-width">My college</a>
+            </div>
+        </div> <!-- end about-content buttons -->
+        
+        
+    </section> <!-- end about -->
+    <!-- works
+    ================================================== -->
+    <section id="portfolio" class="s-works target-section">
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h2 class="red bold">Portfolio</h2>
+                <p class="lead">These are a few achievements,awards and moments in my life that
+                    I cherise.I'm hoping to improve more on the future, joining higher global and national Level
+                    of competitions.Enjoy my hall of fame.</p>
+            </div>
+        </div>
+        <div class="row masonry-wrap">
+            <div class="masonry">
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-IMG_9030.jpg" class="thumb-link" title="MyESO"
+                                data-size="1050x700">
+                                <img src="images/portfolio/IMG_9030.JPG"
+                                    srcset="images/portfolio/IMG_9030.JPG 1x, images/portfolio/IMG_9030.JPG 2x"
+                                    alt="Irfan Ezani participation in MyESO">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                Malaysia Earth Science Olympiad
+                            </p>
+                            <p class="item-folio__cat">
+                                Participant of Final Selection Camp
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Selected for the National Training Camp after passing the Final Selection Test of MyESO.
+                            </p>
+                        </div>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/DSC_0385 (1).JPG" class="thumb-link"
+                                title="National STEM Carnival" data-size="1050x700">
+                                <img src="images/portfolio/DSC_0356.JPG"
+                                    srcset="images/portfolio/DSC_0356.JPG 1x, images/portfolio/DSC_0356.JPG 2x" alt="Irfan Ezani participation in National STEM Carnival>
+                                <span class=" shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                National STEM Carnival 2018
+                            </p>
+                            <p class="item-folio__cat">
+                                Negeri Sembilan Representative
+                            </p>
+                        </div>
+                        <div class="item-folio__caption">
+                            <p>Representing Negeri Sembilan for Digital STEM Video Making Challenge at the National STEM
+                                Carnival 2018.</p>
+                        </div>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-wcf.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/wcf.jpg"
+                                    srcset="images/portfolio/wcf.jpg 1x, images/portfolio/wcf.jpg 2x"
+                                    alt="Irfan Ezani participation in WCF">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                World Creativity Festival 2013
+                            </p>
+                            <p class="item-folio__cat">
+                                Presenter
+                            </p>
+                        </div>
+                        <span class="item-folio__caption">
+                            <p>My first international participation in Daejeon, Korea.Given the chance to pitch the
+                                ideas to built a better world.</p>
+                        </span>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-pengakap.JPG" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/pengkap.jpg"
+                                    srcset="images/portfolio/pengkap.jpg 1x, images/portfolio/pengkap.jpg 2x"
+                                    alt="Irfan Ezani participation in Scouts Jamboree">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                International Scouts Jamboree 2016
+                            </p>
+                            <p class="item-folio__cat">
+                                Participant
+                            </p>
+                        </div>
+                        <span class="item-folio__caption">
+                            <p>A 2-week jamboree joined by ASEAN countries and states in Malaysia. A splendid time.</p>
+                        </span>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-iasc.png" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/aisc.JPG"
+                                    srcset="images/portfolio/aisc.JPG 1x, images/portfolio/aisc.JPG 2x"
+                                    alt="Irfan Ezani participation in AISC">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                ASEAN Islamic Science Camp
+                            </p>
+                            <p class="item-folio__cat">
+                                Performer
+                            </p>
+                        </div>
+                        <span class="item-folio__caption">
+                            <p>Performed the cultural performance of 'kompang' during the Closing Ceremony of the camp.
+                                It is joined by schools from Indonesia and Thailand.</p>
+                        </span>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/g-duke.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/duke.jpg"
+                                    srcset="images/portfolio/duke.jpg 1x, images/portfolio/duke.jpg 2x"
+                                    alt="Irfan Ezani participation in Duke of Edinburgh Awards">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                Duke of Edinburgh Award
+                            </p>
+                            <p class="item-folio__cat">
+                                Bronze, Silver
+                            </p>
+                        </div>
+                        <span class="item-folio__caption">
+                            <p>Received the Silver and Bronze of The Duke of Edinburgh Award.</p>
+                        </span>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-iap.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/iap.JPG"
+                                    srcset="images/portfolio/iap.JPG 1x, images/portfolio/iap.JPG 2x"
+                                    alt="Irfan Ezani participation in International Advisory Panel">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                International Advisory Panel 2017
+                            </p>
+                            <p class="item-folio__cat">
+                                Presenter
+                            </p>
+                        </div>
+                        <span class="item-folio__caption">
+                            <p>NAQUL Insan Presenter during the Permata Insan Advisory Panel Forum.NAQUL Insan is a form
+                                of ted-talk with Islamic integration.</p>
+                        </span>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/steram.JPG" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/steram.JPG"
+                                    srcset="images/portfolio/steram.JPG 1x, images/portfolio/steram.JPG 2x"
+                                    alt="Irfan Ezani participation in STREAM">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                STREAM Appreciation Award
+                            </p>
+                            <p class="item-folio__cat">
+                                Award Recipient
+                            </p>
+                        </div>
+                        <span class="item-folio__caption">
+                            <p>Received the award as contribution on STREAM by USIM in the STREAM Magical Dinner 2019.
+                            </p>
+                        </span>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/choral.JPG" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/choral.JPG"
+                                    srcset="images/portfolio/choral.JPG 1x, images/portfolio/choral.JPG 2x"
+                                    alt="Irfan Ezani participation in Choral Speaking al-Hijrah">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                Choral Speaking Alhijrah
+                            </p>
+                            <p class="item-folio__cat">
+                                Performer
+                            </p>
+                        </div>
+                        <span class="item-folio__caption">
+                            <p>Performed a choral speaking during Al-Hijrah's new year launch in 2017, with the theme
+                                "Soaring on Air".</p>
+                        </span>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick">
+                    <div class="item-folio">
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/kpi.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/kpi.jpg"
+                                    srcset="images/portfolio/kpi.jpg 1x, images/portfolio/kpi.jpg 2x"
+                                    alt="Irfan Ezani participation in Opening Ceremony of KPI">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+                        <div class="item-folio__text">
+                            <p class="h03 item-folio__title">
+                                Official Opening of PERMATA Insan College
+                            </p>
+                            <p class="item-folio__cat">
+                                Presenter
+                            </p>
+                        </div>
+                        <span class="item-folio__caption">
+                            <p>A physics presenter during the Official Opening of PERMATA Insan College, infront of the
+                                Prime Minister and the First Lady of Malaysia.</p>
+                        </span>
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+            </div>
+        </div> <!-- end masonry -->
+    </section> <!-- end works -->
+    <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+        <div class="overlay"></div>
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h2 class="h02 bold" style="color: white;">Future Targets and Plans</h2>
+            </div>
+        </div>
+        <div class="row testimonials">
+            <div class="col-full testimonials__slider">
+                <div class="testimonials__slide">
+                    <img src="images/avatars/gold.jpg" alt="Programme image" class="testimonials__avatar">
+                    <p>To achieve this prestigious award, I must complete <strong class="testimony">all five sections</strong> which are
+                        Service, Physical Recreation, Skills, Adventurous Journey and
+                            Residential Project. This award can be completed
+                        with minimum 18 months of participation and over 16 years old.</p>
+                    <div class="testimonials__author h06">
+                        The Duke of Edinburgh Award (Gold)
+                        <span>Awards </span>
+                    </div>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/genius.png" alt="Programme image" class="testimonials__avatar">
+                    <p><span class="testimony">GENIUS Olympiad</span> is an <span class="testimony">international high
+                            school project competition</span> about environmental issues.
+                        It hosts projects in several disciplines with an environmental focus.
+                        The disciplines includes <span class="testimony">science, robotics and arts</span>.
+                        I'm aiming to participate in it by the year of 2021.
+                    </p>
+                    <div class="testimonials__author h06">
+                        GENIUS Olympiad
+                        <span>Olympiads</span>
+                    </div>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/bctl.png" alt="Programme image" class="testimonials__avatar">
+                    <p>The <span class="testimony">BEAVER Competition</span> is a Malaysian,online <span
+                            class="testimony">computational thinking and informatics contest.</span>
+                        Being 18 this year, this would be my last chance to try and achieve something great in this
+                        contest.</p>
+                    <div class="testimonials__author h06">
+                        Beaver Computational Thinking Competition
+                        <span>Competitions</span>
+                    </div>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/myeso.png" alt="Programme image" class="testimonials__avatar">
+                    <p>MyESO stands for <span class="testimony">Malaysia Earth Science Olympiad.</span> I've entered the
+                        olympiad in 2018,
+                        and got selected until the <span class="testimony">Final Round</span>. I would love to enter it
+                        again this year, and I hope
+                        to succeed at the highest level possible.</p>
+                    <div class="testimonials__author h06">
+                        MyESO
+                        <span>Olympiads</span>
+                    </div>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/wwd.jpg" alt="Programme image" class="testimonials__avatar">
+                    <p>Volunteering is a great way to <span class="testimony">improve interpersonal skills</span> and
+                        <span class="testimony">add new abilities</span> that will
+                        help in achieving our goals. With that being said, I would like to involve more in volunteering
+                        with
+                        NGOs such as <span class="testimony">WWF Malaysia,Free Tree Society,Zero Waste Malaysia</span>
+                        and other NGOs. All in all,
+                        this would help in creating a more harmonious society in our country.</p>
+                    <div class="testimonials__author h06">
+                        Volunteering
+                        <span>Programmes</span>
+                    </div>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/expo.png" alt="Programme image" class="testimonials__avatar">
+                    <p>Joining large,national technology expo would open up my mind thus <span
+                            class="testimony">providing a clearer and wider point of views</span>
+                        towards the country technological advancements and plans. Besides, it would also assist me in
+                        <span class="testimony">preparing a clearer
+                            pathway</span> towards my future career and plans.</p>
+                    <div class="testimonials__author h06">
+                        Tech Expo's
+                        <span>Programmes</span>
+                    </div>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="images/avatars/mcc.jpg" alt="Programme image" class="testimonials__avatar">
+                    <p><span class="testimony">Malaysia Computing Challenge</span> is a computational online competition
+                        designed to <span class="testimony">evaluate participant's computational thinking
+                            abilities</span>.
+                        An excellent result in the challenge would assist in <span class="testimony">joining the
+                            Malaysia Computing Olympiad</span>, which is participated
+                        by invitation-only from participants with high results from the MCC. I'm planning to enter the
+                        competition by 2021.</p>
+                    <div class="testimonials__author h06">
+                        MCC
+                        <span>Competition</span>
+                    </div>
+                </div>
+            </div> <!-- end testimonials__slider -->
+        </div> <!-- end testimonials -->
+    </div> <!-- end s-testimonials -->
+
+    <section id="blog" class="s-blog target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <p class="red bold h02">Projects</p>
+                <p class="lead">
+                    This is my coding journey, learning and building things along the way.<br>
+                    Consists of some of my big projects that I have made to improve my skills. Smaller projects can be seen at my Github profile. 😁
+                </p>
+            </div>
+        </div>
+
+        <div class="row blog-content">
+            <div class="col-full">
+
+                <div class="blog-list block block-tab-full">
+                    <article class="col-block" style="justify-content:center">
+
+                        <div class="blog-date">
+                            <a href="">28 May 2020</a>
+                        </div>
+
+                        <p class="h01 blog-cat"><a href="https://quiz-ies.netlify.app">API Sandbox</a></p>
+                        <p>
+                            This app is done completely from scratch with HTML,CSS and JavaScript.<br>
+                            Uses Trivial DB API.
+                        </p>
+
+                        <div class="col-twelve tab-full center">
+                            <a href="https://quiz-ies.netlify.app" target="_blank" class="btn full-width">Trivia
+                                Quiz</a>
+                        </div>
+
+                        <div class="divider" style="color:white; margin: 4rem;">
+                            divide things up.
+                        </div>
+
+                        <div class="blog-date">
+                            <a href="">19 April 2020</a>
+                        </div>
+
+                        <p class="h01 blog-cat"><a href="memory-game-ies.netlify.app">First Javascript Game</a></p>
+                        <p>
+                            Made a simple memory game with Covid-19 theme using vanilla JavaScript to strengthen my
+                            foundation in JS.
+                        </p>
+
+
+                        <div class="col-twelve tab-full center">
+                            <a href="memory-game-ies.netlify.app" target="_blank" class="btn full-width">memory game</a>
+                        </div>
+
+
+                        <div class="divider" style="color:white; margin: 4rem;">
+                            divide things up.
+                        </div>
+
+                        <div class="blog-date">
+                            <a href="">19 May 2020</a>
+                        </div>
+
+                        <p class="h01 blog-cat"><a href="https://geniusinsancollege.netlify.app">College Mock-Up Website</a>
+                        </p>
+                        <p>
+                            Decided to redesign my college website by my taste. Made using Bootstrap framework and some
+                            simple JS plugins.
+                        </p>
+
+
+                        <div class="col-twelve tab-full center">
+                            <a href="https://geniusinsancollege.netlify.app" target="_blank"
+                                class="btn full-width">GENIUS INSAN</a>
+                        </div>
+
+                        <div class="divider" style="color:white; margin: 4rem;">
+                            divide things up.
+                        </div>
+
+                        <div class="blog-date">
+                            <a href="">23 July 2020</a>
+                        </div>
+
+                        <p class="h01 blog-cat"><a href="https://geniusinsancollege.netlify.app">Alumni Website</a>
+                        </p>
+                        <p>
+                           Made an alumni website for my high school, consisting of helpful sections such as scholarships tips from fellow alumni.
+                        </p>
+
+
+                        <div class="col-twelve tab-full center">
+                            <a href="https://geniusalumni-ies.netlify.app/" target="_blank"
+                                class="btn full-width">ALUMNI@INSAN</a>
+                        </div>
+                    </article>
+
+                </div> <!-- end blog-list -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end blog-content -->
+
+    </section> <!-- end s-blog -->
+
+
+    <section id="stats" class="s-stats">
+        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    3900
+                </div>
+                <h4>Lines of Code</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    270
+                </div>
+                <h4>Cups of Coffee</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    100
+                </div>
+                <h4>Persistence</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    1
+                </div>
+                <h4>Life</h4>
+            </div>
+        </div>
+    </section> <!-- end s-stats -->
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+        <div class="overlay"></div>
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <p class="h01 bold">Contact</p>
+                <p class="h03">Say Hello.</p>
+            </div>
+        </div>
+        <div class="row contact__main">
+            <div class="col-twelve tab-full contact__infos">
+                <p class="h06">Phone</p>
+                <p>+60 012-5657 405<br>
+                </p>
+                <p class="h06">Email</p>
+                <p>irfanezani@gmail.com<br>
+                </p>
+                <p class="h06">Address</p>
+                <p>
+                    Nusajaya, Johor Bahru<br>
+                    79100 MY
+                </p>
+            </div>
+        </div>
+    </section> <!-- end s-contact -->
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/Picture1.png" alt="Homepage"></a>
+                </div>
+                <ul class="footer-social">
+                    <li><a href="https://www.facebook.com/irfanezani.shuhaimi" target="blank">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span>Facebook</span>
+                        </a></li>
+                    <li><a href="https://twitter.com/irfanezani_" target="_blank">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span>Twitter</span>
+                        </a></li>
+                    <li><a href="https://www.instagram.com/irfan.ezani/?hl=en" target="_blank">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span>Instagram</span>
+                        </a></li>
+                    <li><a href="https://github.com/IrfanEzani">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span>Github</span>
+                        </a></li>
+                    <li><a href="https://www.linkedin.com/in/irfanezani/" target="_blank">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span>LinkedIn</span>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row footer-bottom">
+            <div class="col-twelve">
+                <div class="copyright">
+                    I'm Irfan Ezani.
+                    This is my personal page.
+                    I love to code.
+                </div>
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div> <!-- end footer-bottom -->
+    </footer> <!-- end footer -->
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end photoSwipe background -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
