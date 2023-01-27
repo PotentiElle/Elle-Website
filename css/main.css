@@ -43,7 +43,7 @@ body {
   font-family:"librebaskerville-regular", serif;
 }
 p.information_tgh {
-  color:#862121;
+  color:#C8A2C8;
   margin-bottom: 0;
 }
 
@@ -52,7 +52,7 @@ p.information_tgh {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #862121;
+    color: #C8A2C8;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -66,7 +66,7 @@ a:focus {
 }
 
 .red {
-    color: #862121;
+    color: #C8A2C8;
 }
 
 .bold {
@@ -189,7 +189,7 @@ em, i {
 
 strong, b {
     font-family: "montserrat-semibold", serif;
-    color: #862121;
+    color: #C8A2C8;
 }
 
 .testimony {
@@ -349,7 +349,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #862121;
+    background: #C8A2C8;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -358,7 +358,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #862121;
+    color: #C8A2C8;
 }
 
 dd {
@@ -489,7 +489,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #862121;
+    background: #C8A2C8;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -534,7 +534,7 @@ form,
     margin-left: -30px;
     margin-top: -30px;
     padding: 0;
-    background-color: #862121;
+    background-color: #C8A2C8;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
     animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -802,8 +802,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #862121;
-    border-color: #862121;
+    background: #C8A2C8;
+    border-color: #C8A2C8;
 }
 
 
@@ -832,8 +832,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.3rem solid #862121;
-    color: #862121;
+    border: 0.3rem solid #C8A2C8;
+    color: #C8A2C8;
 }
 
 .btn--pill, button.btn--pill {
@@ -1061,7 +1061,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #862121;
+    color: #C8A2C8;
 }
 
 .stats-tabs li a em {
@@ -1250,7 +1250,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
     font-size: 2rem;
-    color: #862121;
+    color: #C8A2C8;
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;
@@ -1263,7 +1263,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro .has-bottom-sep p.red.bold.h02{
-color: #862121;
+color: #C8A2C8;
 font-weight: 800;
 text-transform: uppercase;
 }
@@ -1364,11 +1364,11 @@ text-transform: uppercase;
 .blog-list .blog-date {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
-    color: #862121;
+    color: #C8A2C8;
 }
 
 .blog-list .blog-date a {
-    color: #862121;
+    color: #C8A2C8;
 }
 
 .blog-list .blog-date a:hover,
@@ -1393,7 +1393,7 @@ text-transform: uppercase;
 .blog-list .blog-cat a:hover,
 .blog-list .blog-cat a:focus,
 .blog-list .blog-cat a:active {
-    color: #862121;
+    color: #C8A2C8;
 }
 
 .blog-list .blog-cat a::after {
@@ -1644,7 +1644,7 @@ text-transform: uppercase;
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #af2b2b;
+    color: #C8A2C8;
 }
 
 
@@ -1773,7 +1773,7 @@ text-transform: uppercase;
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #862121;
+    background-color: #C8A2C8;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
@@ -1837,9 +1837,8 @@ text-transform: uppercase;
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #922424;
-    border-right: 2px solid #922424;
-    content: '';
+    border-bottom: 2px solid #C8A2C8;
+    border-right: 2px solid #C8A2C8;
     display: block;
     height: 8px;
     width: 8px;
@@ -1912,7 +1911,7 @@ text-transform: uppercase;
 }
 
 .home-social span {
-    color: #af2b2b;
+    color: #C8A2C8;
     right: 3.6rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2617,9 +2616,10 @@ html.no-csstransitions .home-content__main {
 
 .s-testimonials {
     background-color: #0D0A0B;
-    background-image: url("../images/test3.jpg");
+    background-image: url("../images/Banner_2.png");
     background-repeat: no-repeat;
     background-position: center, center;
+    background-size: cover;
     padding-top: 9.6rem;
     padding-bottom: 10.2rem;
     color: rgba(255, 255, 255, 0.5);
@@ -2983,7 +2983,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col--highlight .stats__count::after {
-    background-color: #862121;
+    background-color: #C8A2C8;
 }
 
 .stats__col--highlight h4 {
@@ -3042,9 +3042,10 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/DSC_0173.JPG");
+    background-image: url("../images/Banner_3.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
+    background-size: cover;
     padding-top: 13.2rem;
     padding-bottom: 12rem;
     color: white;
@@ -3095,7 +3096,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #862121;
+    background: #C8A2C8;
 }
 
 .s-contact .form-field label::after {
@@ -3106,7 +3107,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #862121;
+    border-right: 5px solid #C8A2C8;
 }
 
 .contact__main {
@@ -3155,8 +3156,8 @@ html.no-csstransitions .home-content__main {
 
 .contact__form button {
     margin-top: 4.2rem;
-    background-color: #862121;
-    border-color: #862121;
+    background-color: #C8A2C8;
+    border-color: #C8A2C8;
 }
 
 .message-warning, .message-success {
@@ -3316,7 +3317,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color: #C8A2C8;
 }
 
 footer a:hover, footer a:focus {
@@ -3329,7 +3330,7 @@ footer a:hover, footer a:focus {
 
 .footer-site-logo {
     display: block;
-    width: 130px;
+    size: 100px;
 }
 
 .footer-social {
@@ -3471,7 +3472,7 @@ footer a:hover, footer a:focus {
 
 @media only screen and (max-width: 400px) {
     .footer-site-logo {
-        width: 100px;
+        width: 300px;
     }
     .footer-social li {
         margin-right: 1.2rem;
@@ -4143,3 +4144,27 @@ article.blog-single .blog-content {
         display: none;
     }
 }
+
+/* ----------- Committee Page ------------ */
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  
